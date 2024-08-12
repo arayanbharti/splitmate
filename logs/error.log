@@ -1,0 +1,55 @@
+2024-05-08T02:34:57.191Z | ERROR  | DB Connection Fail | MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (C:\SplitApp\node_modules\mongoose\lib\connection.js:689:11)
+    at C:\SplitApp\node_modules\mongoose\lib\index.js:377:10
+    at C:\SplitApp\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\SplitApp\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (C:\SplitApp\node_modules\mongoose\lib\index.js:1220:10)
+    at Mongoose.connect (C:\SplitApp\node_modules\mongoose\lib\index.js:376:20)
+    at Object.<anonymous> (C:\SplitApp\model\schema.js:4:10)
+    at Module._compile (node:internal/modules/cjs/loader:1369:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+2024-05-08T02:39:01.797Z | ERROR  | [Invalid Route] /static/illustrations/illustration_register.png
+2024-05-08T02:39:37.178Z | ERROR  | [Invalid Route] /dashboard/app
+2024-05-08T02:39:46.894Z | ERROR  | [Invalid Route] /dashboard/app
+2024-05-08T02:39:47.139Z | ERROR  | [Invalid Route] /favicon.ico
+2024-05-08T02:40:05.462Z | ERROR  | [Invalid Route] /register
+2024-05-08T02:40:12.240Z | ERROR  | [Invalid Route] /
+2024-05-08T02:41:49.539Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-05-08T03:40:15.992Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-05-08T03:40:16.389Z | ERROR  | URL : /api/group/v1/user | staus : 400 | message: User Id not found !
+2024-05-08T04:29:02.580Z | ERROR  | URL : /api/expense/v1/user | API Authentication Fail | message: Invalid Token
+2024-05-08T04:29:02.630Z | ERROR  | URL : /api/group/v1/user | API Authentication Fail | message: Invalid Token
+2024-05-08T04:46:01.966Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-05-08T04:46:02.080Z | ERROR  | URL : /api/group/v1/user | staus : 400 | message: User Id not found !
+2024-05-08T04:46:16.848Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-05-08T04:46:17.000Z | ERROR  | URL : /api/group/v1/user | staus : 400 | message: User Id not found !
+2024-05-08T04:46:24.419Z | ERROR  | URL : /api/group/v1/user | staus : 400 | message: User Id not found !
+2024-05-08T04:46:26.105Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-05-08T04:46:26.320Z | ERROR  | URL : /api/group/v1/user | staus : 400 | message: User Id not found !
+2024-05-08T04:46:26.970Z | ERROR  | URL : /api/group/v1/user | staus : 400 | message: User Id not found !
+2024-05-08T04:46:58.099Z | ERROR  | URL : /api/users/v1/login | staus : 401 | message: Invalid email Id or Password ! Error: Invalid email Id or Password !
+    at exports.userLogin (C:\SplitApp\components\user.js:66:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-05-08T04:47:33.782Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-05-08T05:43:38.732Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-05-08T06:15:54.921Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-05-08T06:16:31.688Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2024-07-06T17:47:47.953Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-07-06T17:48:06.057Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-07-06T17:48:17.488Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-07-06T17:48:47.105Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2024-07-06T17:49:01.146Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-07-06T17:49:01.808Z | ERROR  | URL : /api/expense/v1/user/recent | staus : 400 | message: No expense present for the user
+2024-07-06T17:54:54.604Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-07-06T17:54:55.070Z | ERROR  | URL : /api/expense/v1/user/recent | staus : 400 | message: No expense present for the user
+2024-07-06T17:55:10.954Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-07-06T17:55:11.646Z | ERROR  | URL : /api/expense/v1/user/recent | staus : 400 | message: No expense present for the user
+2024-07-06T17:57:28.513Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-07-06T17:57:29.227Z | ERROR  | URL : /api/expense/v1/user/recent | staus : 400 | message: No expense present for the user
+2024-07-06T17:57:41.117Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-07-06T17:57:41.577Z | ERROR  | URL : /api/expense/v1/user/recent | staus : 400 | message: No expense present for the user
+2024-08-12T06:13:44.170Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-08-12T06:13:44.191Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-08-12T06:13:44.335Z | ERROR  | URL : /api/expense/v1/user/recent | staus : 400 | message: No expense present for the user
+2024-08-12T06:13:44.384Z | ERROR  | URL : /api/expense/v1/user/recent | staus : 400 | message: No expense present for the user

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Typography } from '@mui/material';
 import { Box, Container } from '@mui/system';
+import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 
 const About = () => {
   return (
@@ -8,21 +9,25 @@ const About = () => {
       <Box
         sx={{
           padding: '40px',
-          backgroundColor: '#ffffff',
-          borderRadius: '12px',
-          boxShadow: '0 4px 20px rgba(0, 0, 0, 0.1)',
+          background: 'linear-gradient(135deg, #e0f7fa, #ffffff)',
+          borderRadius: '16px',
+          boxShadow: '0 6px 30px rgba(0, 0, 0, 0.1)',
           color: '#444',
           lineHeight: 1.8,
           fontFamily: 'Roboto, sans-serif',
           marginTop: '40px',
+          transition: 'transform 0.3s ease-in-out',
+          '&:hover': {
+            transform: 'translateY(-5px)',
+          },
         }}
       >
         <Typography
           variant="h2"
           sx={{
-            fontSize: '2.5em',
+            fontSize: '2.8em',
             marginBottom: '20px',
-            color: '#2c3e50',
+            color: '#00796b',
             textAlign: 'center',
             fontWeight: 700,
             letterSpacing: '1px',
@@ -33,38 +38,31 @@ const About = () => {
         <Typography
           variant="body1"
           sx={{
-            fontSize: '1.1em',
-            marginBottom: '20px',
+            fontSize: '1.2em',
+            marginBottom: '24px',
             color: '#555',
             textAlign: 'justify',
           }}
         >
-          Welcome to Split Mate, your trusted companion for managing group
-          expenses, bills, and shared tasks. Whether you're planning a getaway
-          with friends, sharing household expenses, or coordinating a group
-          project, Split Mate is here to ensure everything is handled smoothly
-          and fairly.
+          Welcome to Split Mate, your trusted companion for managing group expenses, bills, and shared tasks. Whether you're planning a getaway with friends, sharing household expenses, or coordinating a group project, Split Mate is here to ensure everything is handled smoothly and fairly.
         </Typography>
         <Typography
           variant="body1"
           sx={{
-            fontSize: '1.1em',
-            marginBottom: '20px',
+            fontSize: '1.2em',
+            marginBottom: '24px',
             color: '#555',
             textAlign: 'justify',
           }}
         >
-          Split Mate allows you to easily create groups, add expenses or tasks,
-          and keep track of who owes what. Our user-friendly interface makes
-          sure that everyone stays informed, reducing the chances of
-          misunderstandings and ensuring transparency within your group.
+          Split Mate allows you to easily create groups, add expenses or tasks, and keep track of who owes what. Our user-friendly interface makes sure that everyone stays informed, reducing the chances of misunderstandings and ensuring transparency within your group.
         </Typography>
         <Typography
           variant="h6"
           sx={{
-            fontSize: '1.5em',
-            marginBottom: '10px',
-            color: '#2c3e50',
+            fontSize: '1.6em',
+            marginBottom: '16px',
+            color: '#00796b',
             fontWeight: 600,
           }}
         >
@@ -73,56 +71,98 @@ const About = () => {
         <Box
           component="ul"
           sx={{
-            listStyleType: 'disc',
-            paddingLeft: '40px',
-            marginBottom: '20px',
+            listStyleType: 'none',
+            paddingLeft: '0',
+            marginBottom: '24px',
             color: '#666',
           }}
         >
-          <Box component="li" sx={{ marginBottom: '10px', position: 'relative' }}>
-            Effortless expense tracking: Add and split expenses among group members
-            with just a few taps.
+          <Box
+            component="li"
+            sx={{
+              marginBottom: '16px',
+              display: 'flex',
+              alignItems: 'center',
+            }}
+          >
+            <CheckCircleIcon sx={{ color: '#00796b', marginRight: '8px' }} />
+            <Typography variant="body1">
+              Effortless expense tracking: Add and split expenses among group members with just a few taps.
+            </Typography>
           </Box>
-          <Box component="li" sx={{ marginBottom: '10px', position: 'relative' }}>
-            Flexible splitting options: Choose to split expenses equally, by
-            percentage, or by custom amounts.
+          <Box
+            component="li"
+            sx={{
+              marginBottom: '16px',
+              display: 'flex',
+              alignItems: 'center',
+            }}
+          >
+            <CheckCircleIcon sx={{ color: '#00796b', marginRight: '8px' }} />
+            <Typography variant="body1">
+              Flexible splitting options: Choose to split expenses equally, by percentage, or by custom amounts.
+            </Typography>
           </Box>
-          <Box component="li" sx={{ marginBottom: '10px', position: 'relative' }}>
-            Real-time updates: Get real-time notifications on balances and payments.
+          <Box
+            component="li"
+            sx={{
+              marginBottom: '16px',
+              display: 'flex',
+              alignItems: 'center',
+            }}
+          >
+            <CheckCircleIcon sx={{ color: '#00796b', marginRight: '8px' }} />
+            <Typography variant="body1">
+              Real-time updates: Get real-time notifications on balances and payments.
+            </Typography>
           </Box>
-          <Box component="li" sx={{ marginBottom: '10px', position: 'relative' }}>
-            Detailed history: Access a complete history of all expenses and payments
-            within a group.
+          <Box
+            component="li"
+            sx={{
+              marginBottom: '16px',
+              display: 'flex',
+              alignItems: 'center',
+            }}
+          >
+            <CheckCircleIcon sx={{ color: '#00796b', marginRight: '8px' }} />
+            <Typography variant="body1">
+              Detailed history: Access a complete history of all expenses and payments within a group.
+            </Typography>
           </Box>
-          <Box component="li" sx={{ marginBottom: '10px', position: 'relative' }}>
-            Secure and private: Your data is secure with Split Mate, and we
-            prioritize your privacy.
+          <Box
+            component="li"
+            sx={{
+              marginBottom: '16px',
+              display: 'flex',
+              alignItems: 'center',
+            }}
+          >
+            <CheckCircleIcon sx={{ color: '#00796b', marginRight: '8px' }} />
+            <Typography variant="body1">
+              Secure and private: Your data is secure with Split Mate, and we prioritize your privacy.
+            </Typography>
           </Box>
         </Box>
         <Typography
           variant="body1"
           sx={{
-            fontSize: '1.1em',
-            marginBottom: '20px',
+            fontSize: '1.2em',
+            marginBottom: '24px',
             color: '#555',
             textAlign: 'justify',
           }}
         >
-          At Split Mate, we believe managing shared responsibilities should be
-          hassle-free. Our app is built to make that a reality, and we are
-          committed to continually improving to meet your needs.
+          At Split Mate, we believe managing shared responsibilities should be hassle-free. Our app is built to make that a reality, and we are committed to continually improving to meet your needs.
         </Typography>
         <Typography
           variant="body1"
           sx={{
-            fontSize: '1.1em',
-            marginBottom: '0px',
+            fontSize: '1.2em',
             color: '#555',
             textAlign: 'justify',
           }}
         >
-          Thank you for choosing Split Mate. We hope it helps you stay organized
-          and maintain harmony in your group activities!
+          Thank you for choosing Split Mate. We hope it helps you stay organized and maintain harmony in your group activities!
         </Typography>
       </Box>
     </Container>

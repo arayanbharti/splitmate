@@ -154,7 +154,7 @@ export default function Creategroup() {
                                             label="Currency"
                                             {...getFieldProps('groupCurrency')}
                                         >
-                                            <MenuItem value={'NPR'}>₹ NPR</MenuItem>
+                                            <MenuItem value={'NPR'}>₹ INR</MenuItem>
                                             <MenuItem value={'USD'}>$ USD</MenuItem>
                                             <MenuItem value={'EUR'}>€ EUR</MenuItem>
                                         </Select>
